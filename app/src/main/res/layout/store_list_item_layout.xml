@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_view_bills_left"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="@dimen/fab_margin"
+            android:background="@drawable/background_bills_left"
+            android:gravity="center"
+            android:text="20"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_store_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Store Name"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_amount_left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amount Payable : 2999" />
+
+            <TextView
+                android:id="@+id/text_view_total_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Amount : 12999" />
+
+            <TextView
+                android:id="@+id/text_view_total_bills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Bills : 35"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

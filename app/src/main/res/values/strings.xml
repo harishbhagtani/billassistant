@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Bill Assistant</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="string_store_name">Store Name</string>
+    <string name="string_store_name_colon">Store Name : </string>
+
+    <string name="string_bill_amount">Bill Amount</string>
+    <string name="string_bill_amount_colon">Bill Amount : </string>
+
+    <string name="string_bill_date_colon">Bill Date : </string>
+    <string name="string_payment_date_colon">Pay Date : </string>
+
+    <string name="string_payment_status_colon">Payment Status : </string>
+
+    <string name="string_paid">Paid</string>
+    <string name="string_unpaid">Unpaid</string>
+    <string name="string_partially_paid">Half Paid</string>
+
+    <string name="string_add_bill">Add Bill</string>
+    <string name="string_payment_unpaid">Payment Unpaid</string>
+
+    <string name="string_enter_store_name">Enter Store Name</string>
+    <string name="string_mark_paid">Mark Paid</string>
+    <string name="string_bill_id">Bill ID</string>
+    <string name="string_delete_store">Delete Account</string>
+</resources>

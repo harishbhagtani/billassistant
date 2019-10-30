@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_add_store"
+        android:icon="@drawable/ic_add"
+        android:title="Add Store"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_delete_accounts"
+        android:icon="@drawable/ic_add"
+        android:title="Delete All Accounts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_bills"
+        android:icon="@drawable/ic_add"
+        android:title="Delete All Bills"
+        app:showAsAction="never" />
+</menu>
